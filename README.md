@@ -11,6 +11,7 @@ bisnis.com secara berkala sesuai interval waktu yang ditentukan, mengambil artik
 
 ## Arsitektur
 Arsitektur dibagi menjadi 2:
+
 (`core/scraper.py`): Berisi *Class* `BisnisScraper` yang bertindak sebagai modul dasar utama. Semua logika ekstraksi HTML (menggunakan `BeautifulSoup`), pembersihan teks , dan format *export* JSON.
 
  (`backtrack.py` & `standard.py`):** Bertindak sebagai pengeksekusi. Keduanya hanya mengelola *looping* waktu, penangkapan parameter terminal (`argparse`), dan *routing* URL, lalu mendelegasikan tugas ekstraksi datanya ke modul utama.
