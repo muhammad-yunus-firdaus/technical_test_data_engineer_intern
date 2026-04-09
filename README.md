@@ -16,5 +16,5 @@ Arsitektur dibagi menjadi 2:
  (`backtrack.py` & `standard.py`):** Bertindak sebagai pengeksekusi. Keduanya hanya mengelola *looping* waktu, penangkapan parameter terminal (`argparse`), dan *routing* URL, lalu mendelegasikan tugas ekstraksi datanya ke modul utama.
 
 ## Video Demonstrasi
-Untuk melihat bagaimana crawler ini bekerja secara langsung (*live execution*), silakan tonton video demonstrasi singkat berikut:
-👉 **[Klik di sini untuk menonton Video Demo](TULIS_LINK_YOUTUBE_ATAU_GDRIVE_KAMU_DI_SINI)**
+Untuk melihat bagaimana crawler ini bekerja secara langsung, silakan tonton video demonstrasi singkat berikut:
+ **https://drive.google.com/drive/folders/18H6a5Ju60W7-mTRwFWqcpa4Jlq8YPRls?usp=sharing)**
